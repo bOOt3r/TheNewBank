@@ -1,10 +1,14 @@
+#importerar klasser
 from classes.bank import *
 from classes.customer import Customer as c
 
+#kollar så att main ÄR main
 if __name__ == '__main__':
+    #initierar bank klassen
     b = Bank()
     b._load()
 
+    #startar konsol applikationen
     ui = True
     while ui:
         print("Välkommen till TheNewBank!")
@@ -17,15 +21,16 @@ if __name__ == '__main__':
 
         ui = input("Gör ett val\n")
 
-
+        #visar alla kunder i banken
         if ui == "1":
             b.get_customers()
             input("Tryck på ENTER för att återgå.")
 
+        #visar alla uppgifter om ett visst konto (ej klar)
         if ui == "2":
             while True:
                 try:
-                    acc_id = int(input("Enter account number of the account you wish to see information about: "))
+                    acc_id = int(input("Fyll i kontonummer för det konto du vill se information om"))
                     b.get_account(acc_id)
                     input("Tryck på ENTER för att återgå")
                     break
@@ -35,7 +40,7 @@ if __name__ == '__main__':
                     print("\nÅtergår till huvudmenyn")
                     input("Tryck på ENTER för att återgå")
                     break
-
+        #skapar en ny kund
         if ui == "3":
             while True:
                 try:
@@ -50,7 +55,7 @@ if __name__ == '__main__':
                     print("\nÅtergår till huvudmenyn")
                     input("Tryck på ENTER för att återgå")
                     break
-
+        #ändrar namn på en kund
         if ui == "4":
             while True:
                 try:
@@ -65,7 +70,7 @@ if __name__ == '__main__':
                     print("\nÅtergår till huvudmenyn")
                     input("Tryck på ENTER för att återgå")
                     break
-        
+        #raderar en kund
         if ui == "5":
             while True:
                 try:
@@ -79,6 +84,6 @@ if __name__ == '__main__':
                     print("\nÅtergår till huvudmenyn")
                     input("Tryck på ENTER för att återgå")
                     break
-
+        #avslutar konsol applikationen
         if ui == "6":
             quit()

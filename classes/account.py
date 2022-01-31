@@ -1,7 +1,7 @@
 class Account:
 
-    def __init__(self, cust_id, ssn, name, acc_id = 0, acc_type = "debit account", balance = 0.00):
-        self.cust_id = int(cust_id)
+    def __init__(self, c_id, ssn, name, acc_id, acc_type, balance):
+        self.c_id = int(c_id)
         self.ssn = int(ssn)
         self.name = name
         self.acc_id = int(acc_id)
