@@ -1,0 +1,16 @@
+10000:1337:Bank Manager:1000:debit account:10000.00
+10001:198506105693:Berit Limén:1001:debit account:1000.00
+10002:198911304643:Sanna Limén:1002:debit account:1000.00
+10003:194412095516:Bennet Esbjörnsson:1003:debit account:1000.00
+10004:194607072701:Marita Engdahl:1004:debit account:1000.00
+10005:197409255671:Kristoffer Exander:1005:debit account:1000.00
+10006:202107177658:Leo Limén:1006:debit account:1000.00
+10007:1111:bengt andersson:1007:debit account:1000.00
+10008:2222:cesar davidsson:1008:debit account:1000.00
+10009:1234:Hejdu Igensson:1008:debit account:1000.00
+10011:1235:Thure Svensson:1009:debit account:1000.00
+10012:1236:Kalle Johansson:1010:debit account:1000.00
+10014:9042892:Fredrik Winblad:1011:debit account:1000.00
+10015:123123123123:Kalle Johanssononononon:1012:debit account:1000.00
+10017:8506065656:Assa Dassa:1013:debit account:1000.00
+10018:6512225654:Stina Stare:1014:debit account:1000.00
