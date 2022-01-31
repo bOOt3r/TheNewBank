@@ -33,11 +33,10 @@ class Bank:
     def get_account(self, acc_id):
         for x in Bank.hold_a:
             if x.acc_id == acc_id:
-                print(f'Owner: {x.name}, {x.pnr}\nAccount: {x.acc_id}, {x.acc_type}, {x.balance}')
+                print(x.acc_id, acc_id, x_name)
                 break
-        else:
-            print(a.Account(acc_id))
-            print(f'Did not find account: {acc_id}. Did you type it correctly?')
+             else
+                pass
 
     #söker efter kundens "ssn" i textfilen, om den inte finns läggs en ny kund till på sista raden
     def add_customer(self, ssn, name):
